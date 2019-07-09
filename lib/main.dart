@@ -5,8 +5,8 @@ import 'package:recipe/views/home_page.dart';
 import 'package:recipe/views/not_found_page.dart';
 
 // Feature routes
-import 'package:recipe/features/contact/views/contact_us_page.dart';
-import 'package:recipe/features/recipes/views/home_recipes.dart';
+import 'package:recipe/features/contact/contact_us_page.dart';
+import 'package:recipe/features/recipes/home_recipes.dart';
 
 void main() {
   runApp(MaterialApp(
