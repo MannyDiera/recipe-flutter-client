@@ -31,7 +31,7 @@ __Example:__ feature_added_login_page
 
 When working on a bug or hotfix, create a descriptively named 'bug' branch using underscores and starting with the bug or issue number. 
 
-__Example:__ bugCode_login_page
+__Example:__ bug_code_login_page_button
 
 #### Submitting a PR
 When work on your feature/bug branch is completed, commit the changes to the branch. Then checkout dev, do a git pull and once updated, go back to your working branch and merge dev into it. This will allow you to fix any conflict issues locally before submitting the PR. 
