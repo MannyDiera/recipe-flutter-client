@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 // Home and 404 routes
-import 'package:recipe/views/home_page.dart';
+import 'package:recipe/views/landing_page.dart';
 import 'package:recipe/views/not_found_page.dart';
 
 // Feature routes
@@ -12,7 +12,7 @@ void main() {
   runApp(MaterialApp(
     initialRoute: '/',
     routes: <String, WidgetBuilder>{
-      '/': (context) => HomePage(),
+      '/': (context) => LandingPage(),
       '/recipes': (BuildContext context) => RecipesPage(),
       '/contact': (BuildContext context) => ContactUsPage(),
     },
