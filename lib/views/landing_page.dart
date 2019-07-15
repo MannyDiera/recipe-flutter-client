@@ -69,7 +69,7 @@ class _LandingPageState extends State<LandingPage> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     SizedBox(
-                      height: 155.0,
+                      height: 255.0,
                       child: FlareActor(
                         "assets/Plate.flr",
                         alignment: Alignment.center,
