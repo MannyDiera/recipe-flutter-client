@@ -8,11 +8,21 @@ class HomePage extends StatelessWidget {
         title: Text('Home page'),
       ),
       body: Center(
-        child: RaisedButton(
-          onPressed: () {
-            Navigator.pushNamed(context, '/recipes');
-          },
-          child: Text('Go to Recipes page'),
+        child: new Column(
+          children: <Widget>[
+            RaisedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, '/recipes');
+              },
+              child: Text('Go to Recipes page'),
+            ),
+            RaisedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, '/whatsapp');
+              },
+              child: Text('Go to Whatsapp page'),
+            ),
+          ],
         ),
       ),
     );
